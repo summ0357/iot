@@ -19,7 +19,8 @@ sudo pip3 install adafruit-circuitpython-pca9685
 ```
 ###    做法：
 1.將PCA9685和樹莓派連接
-![image](https://hackmd.io/_uploads/r1p_vYA_p.png)
+![WhatsApp Image 2024-01-09 at 2 21 09 PM](https://github.com/summ0357/iot/assets/97116091/c1782e69-1bc6-4baf-977a-5d0559998cf8 =50%x)
+
 *在連接的時候需注意自己的servo連到了那個pin，不然寫程式的時候如果servo寫錯，機器手臂就不會動
 
 2.把馬達和PCA9685鏈接
@@ -27,7 +28,7 @@ sudo pip3 install adafruit-circuitpython-pca9685
 
 
 3.把PCA9685和電源供應鏈接
-![WhatsApp Image 2024-01-09 at 2.24.19 PM](https://hackmd.io/_uploads/HkQAOtAd6.jpg =50%x)
+
 *由於電綫長度限制，所以機器手臂移動時會容易發生電綫因爲移動脫落（2&3步驟都容易發生），導致連接PCA9685和電源供應的電綫燒斷或者電源供應爆炸（不會到很嚴重）但是建議馬上把所以電源先拔掉再檢查是哪裏出問題
 
 4.[使用樹莓派跑app.py檔去用flask打開html網頁](https://projects.raspberrypi.org/en/projects/python-web-server-with-flask)
