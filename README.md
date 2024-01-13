@@ -20,7 +20,7 @@ sudo pip3 install adafruit-circuitpython-pca9685
 ###    做法：
 1.將PCA9685和樹莓派連接
 
-![樹莓派](https://github.com/summ0357/iot/assets/97116091/e5346928-862e-42ba-bb09-6ed9192ada9b)
+<img src= "https://github.com/summ0357/iot/assets/97116091/e5346928-862e-42ba-bb09-6ed9192ada9b" height ="500px" >
 
 
 *在連接的時候需注意自己的servo連到了那個pin，不然寫程式的時候如果servo寫錯，機器手臂就不會動
