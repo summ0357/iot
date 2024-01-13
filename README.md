@@ -40,6 +40,7 @@ sudo pip3 install adafruit-circuitpython-pca9685
 4.[使用樹莓派跑app.py檔去用flask打開html網頁](https://projects.raspberrypi.org/en/projects/python-web-server-with-flask)
 成功畫面：
 <img src="https://github.com/summ0357/iot/assets/97116091/188c99ba-e79d-4929-a0a0-99d83aa924b4" height ="200px" >
+<br>
 鏈接附教學
 
 
